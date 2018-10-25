@@ -97,7 +97,11 @@ Found Apple TVs:
 Note: You must use 'pair' with devices that have home sharing disabled
 ```
 
-Just copy and paste the `login_id` from the device you want to add. For more details about `atvremote`, see: [this page](http://pyatv.readthedocs.io/en/master/atvremote.html).
+In case you get a command not found error, you might need to add ~/.local/bin to your PATH environment variable: 
+```bash
+$ export PATH=$PATH:~/.local/bin
+```
+Now, just copy and paste the `login_id` from the device you want to add. For more details about `atvremote`, see: [this page](http://pyatv.readthedocs.io/en/master/atvremote.html).
 
 ### {% linkable_title Setting up device authentication %}
 
